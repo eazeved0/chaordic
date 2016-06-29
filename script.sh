@@ -5,6 +5,7 @@ export NVM_DIR="/root/.nvm"
 
 NVM=`nvm ls-remote |tail -n1`
 nvm install $NVM
+npm install express
 
 
 PROC=`nproc`
