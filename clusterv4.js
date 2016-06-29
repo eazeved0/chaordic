@@ -1,4 +1,3 @@
-// File /srv/server.js
 var http = require('http');
 
 function serve(ip, port)
